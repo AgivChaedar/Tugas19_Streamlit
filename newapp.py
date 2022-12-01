@@ -65,9 +65,9 @@ def prediction(Age, Sex, ChestPainType, RestingBP, Cholesterol, FastingBS, Resti
         [[Age, Sex, ChestPainType, RestingBP, Cholesterol, FastingBS, RestingECG, MaxHR, ExerciseAngina, Oldpeak, ST_Slope]])
 
     if prediction == 0:
-        pred = 'Heart Disease'
-    else:
         pred = 'No Heart Disease'
+    else:
+        pred = 'Heart Disease'
     return pred
 
 
